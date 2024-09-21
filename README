@@ -1,0 +1,28 @@
+Inventory Management System
+An Inventory Management System written in C that helps manage products with functionalities such as adding, updating, deleting, searching, and selling products. This system utilizes binary file operations for storing and managing data.
+
+Features
+Add Products: Add new products to the inventory with details like code, name, rate, quantity, weight (classification), and description.
+Display Products: List all available products in the inventory.
+Search Products: Search products by code or classification (weight).
+Update Products: Modify product details.
+Delete Products: Remove products from the inventory.
+Sell Products: Sell products and reduce their quantity in stock.
+
+Functions
+1. Add Product
+Input details like product code, name, rate, quantity, classification (weight), and description.
+2. Display All Products
+Lists all products in the inventory along with their details.
+3. Search Product by Code
+Enter the product code to search and display its details.
+4. Search Product by Classification
+Enter the product classification (weight) to view products in that category.
+5. Delete Product
+Remove a product from the inventory by entering its code.
+6. Update Product
+Modify the details of an existing product by entering its code.
+7. Sell Product
+Decrease the stock of a product after selling a specified quantity.
+8. Exit
+Quit the program.
